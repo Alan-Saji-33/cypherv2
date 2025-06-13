@@ -31,5 +31,5 @@ A feature-rich Discord bot for the **Arackal Tharavadu** server, built with **No
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/arackal-tharavadu-bot.git
+   git clone https://github.com/Alan-Saji-33/arackal-tharavadu-bot.git
    cd arackal-tharavadu-bot
