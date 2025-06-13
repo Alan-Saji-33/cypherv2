@@ -47,9 +47,9 @@ const BOT_TOKEN = process.env.BOT_TOKEN;
 const CLIENT_ID = process.env.CLIENT_ID;
 const GUILD_ID = process.env.GUILD_ID;
 const OWNER_ID = process.env.OWNER_ID;
-const STATS_CHANNEL_ID = '1360132549757636780';
-const ACTIVITY_CHANNEL_ID = '1374273022940286977';
-const WELCOME_CHANNEL_ID = '1288490972233338964';
+const STATS_CHANNEL_ID = '********8';
+const ACTIVITY_CHANNEL_ID = '**********';
+const WELCOME_CHANNEL_ID = '**********';
 const WELCOME_IMAGE_URL = 'https://i.ibb.co/5gfHdw6J/standard.gif';
 
 // Validate environment variables
