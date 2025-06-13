@@ -33,3 +33,32 @@ A feature-rich Discord bot for the **Arackal Tharavadu** server, built with **No
    ```bash
    git clone https://github.com/Alan-Saji-33/arackal-tharavadu-bot.git
    cd arackal-tharavadu-bot
+## Commands
+
+The bot supports the following slash commands:
+
+| Command                  | Description                                              | Permissions        |
+|--------------------------|----------------------------------------------------------|--------------------|
+| `/hi`                   | Sends a friendly greeting embed.                         | Everyone           |
+| `/online_members`       | Lists online members with their statuses.                | Everyone           |
+| `/help`                 | Displays all available commands with buttons.            | Everyone           |
+| `/activity_leaderboard` | Shows the top 10 players by playtime.                    | Everyone           |
+| `/invc`                 | Makes the bot join a specified voice channel.            | Everyone           |
+| `/outvc`                | Makes the bot leave the current voice channel.           | Everyone           |
+| `/embed`                | Sends a custom embed with optional buttons and images.   | Owner Only         |
+| `/send_dm`              | Sends a direct message to a specified user.              | Owner Only         |
+| `/send_message`         | Sends a message to the current channel with optional file attachments. | Owner Only         |
+| `/activity`             | Sets or removes the bot's activity (Playing, Watching, etc.). | Owner Only         |
+| `/set_status`           | Sets the bot's status (Online, Idle, DND, Invisible) with custom text. | Owner Only         |
+| `/clear_status`         | Clears the bot's custom status.                         | Owner Only         |
+| `/setup_activity`       | Sets up the activity tracking system with buttons.       | Owner Only         |
+| `/setup_nickname`       | Sets up the nickname change system with a button.        | Owner Only         |
+| `/kick`                 | Kicks a user from the server with an optional reason.    | Moderators (KickMembers) |
+| `/ban`                  | Bans a user from the server with an optional reason.     | Moderators (BanMembers) |
+| `/timeout`              | Times out a user for a specified duration.               | Moderators (ModerateMembers) |
+| `/clear`                | Deletes a specified number of messages or messages from a user. | Moderators (ManageMessages) |
+
+### Button Interactions
+- **Help Menu Buttons**: Execute `/hi`, `/online_members`, or display server info.
+- **Activity Tracker Buttons**: View personal activity stats or the server leaderboard.
+- **Nickname Change Button**: Opens a modal for users to request a nickname change.
